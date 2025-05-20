@@ -44,36 +44,36 @@ A modern and responsive task management web application built with **React**, **
    git clone https://github.com/your-username/task-manager.git
    cd task-manager
 
-npm install
+2. ```npm install
 
-Set up Firebase
+3. **Set up Firebase**
 
-Create a Firebase project at https://console.firebase.google.com
+```Create a Firebase project at https://console.firebase.google.com
 
-Enable Authentication (Email/Password) and Firestore
+```Enable Authentication (Email/Password) and Firestore
 
-Create a firebase.js file and configure it:
+```Create a firebase.js file and configure it:
 
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+```import { initializeApp } from "firebase/app";
+```import { getAuth } from "firebase/auth";
+```import { getFirestore } from "firebase/firestore";
 
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
-};
+```const firebaseConfig = {
+  ```apiKey: "YOUR_API_KEY",
+  ```authDomain: "YOUR_AUTH_DOMAIN",
+  ```projectId: "YOUR_PROJECT_ID",
+ ``` storageBucket: "YOUR_STORAGE_BUCKET",
+  ```messagingSenderId: "YOUR_SENDER_ID",
+  ```appId: "YOUR_APP_ID",
+```};
 
-const app = initializeApp(firebaseConfig);
+```const app = initializeApp(firebaseConfig);
 
-export const auth = getAuth(app);
-export const db = getFirestore(app);
+```export const auth = getAuth(app);
+```export const db = getFirestore(app);
 
 
-npm run dev
+```npm run dev
 
 ## Project Structure
 src/
