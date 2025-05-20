@@ -44,7 +44,7 @@ A modern and responsive task management web application built with **React**, **
    git clone https://github.com/your-username/task-manager.git
    cd task-manager
 
-2. ```npm install
+2. **npm install**
 
 3. **Set up Firebase**
 
