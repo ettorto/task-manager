@@ -87,13 +87,14 @@ src/
 └── styles.css
 
 ## Todo / Future Improvements
-Add task due dates and reminders
+```Add task due dates and reminders
 
-Task priority labels (e.g., High, Medium, Low)
+```Task priority labels (e.g., High, Medium, Low)
 
-Drag-and-drop reordering
+```Drag-and-drop reordering
 
-Dark mode toggle
+```Dark mode toggle
+```Add voice transcriber
 
 🧑‍💻 Author
 Developed by [Ernest Torto]. Feel free to reach out or contribute to the project!
