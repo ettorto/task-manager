@@ -48,7 +48,8 @@ A modern and responsive task management web application built with **React**, **
 
 3. **Set up Firebase**
 
-```Create a Firebase project at https://console.firebase.google.com
+```bash
+   Create a Firebase project at https://console.firebase.google.com
 
    Enable Authentication (Email/Password) and Firestore
 
@@ -76,6 +77,7 @@ A modern and responsive task management web application built with **React**, **
    npm run dev
 
 ## Project Structure
+
 src/
 ├── components/
 │   ├── Login.js
