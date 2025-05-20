@@ -76,6 +76,7 @@ A modern and responsive task management web application built with **React**, **
 
    npm run dev
 
+---
 ## Project Structure
 
 src/
