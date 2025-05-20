@@ -25,7 +25,7 @@ A modern and responsive task management web application built with **React**, **
 |------------|-----------|
 | ![Login](https://i.imgur.com/your-login-image.png) | ![Dashboard](https://i.imgur.com/your-dashboard-image.png) |
 
-*(Optional: Replace with actual screenshots if desired)*
+
 
 ---
 
